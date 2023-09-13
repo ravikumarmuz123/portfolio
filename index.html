@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ravi Kumar - Frontend Developer</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/5fa39ebbdc.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="" alt="" class="logo">
+                <ul id="side-menu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi, I'am  <span>Ravi Kumar </span></h1>
+                <p>Frontend Developer</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------------About----------------------------- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./images/IMG20230210194852.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm a passionate frontend developer with a keen eye for design and a knack for crafting seamless user experiences. With a background in web development, I thrive on transforming creative ideas into functional, user-friendly interfaces. I'm dedicated to staying up-to-date with the latest trends and technologies in the ever-evolving world of web development, ensuring that every project I tackle is not only visually appealing but also optimized for performance and accessibility.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('exprience')">Exprience</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="education">
+                        <ul>
+                            <li><span>Currently</span><br>Full Stack Web Development Training<br>at CETPA Infotech Noida</li>
+                            <li><span>2019 - 2023</span><br>B.Tech (Computer Science & Engineering)<br>From Budge Budge Institute of Technology Kolkata</li>
+                            <li><span>2017 - 2019</span><br>Senior Secondary Education<br>from SN Sahay College Muzffarpur</li>
+                            <li><span>2016 - 2017</span><br>Secondary Education<br>from DAV Public School Muzaffarpur</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="skills">
+                        <ul>
+                            <span><li><i class="fa-brands fa-react" style="color: #61DBFB;"></i> React JS</li></span>
+                            <span><li><i class="fa-brands fa-square-js" style="color: #F0DB4F;"></i> Javascript</li></span>
+                            <span><li><i class="fa-brands fa-bootstrap" style="color: #7f0ca9;"></i> Bootstrap</li></span>
+                            <span><li><i class="fa-brands fa-css3-alt" style="color: #2965f1;"></i> CSS</li></span>
+                            <span><li><i class="fa-brands fa-html5" style="color: #F06529;"></i> HTML</li></span>
+                            <br>
+                            <span><li><i class="fa-brands fa-java" style="color: white;"></i> Java</li></span>
+                            <span><li><i class="fa-solid fa-database" style="color: white;"></i> MySQL</li></span>
+                            <span><li><i class="fa-solid fa-bug-slash" style="color: white;"></i> Debugging</li></span>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="exprience">
+                        <ul>
+                            <li>
+                                <span>6 Months Training Cum Internship</span>
+                                <br>Duration : July 2023 - Present
+                                <br>Company : CETPA Infotech
+                                <br>Location : Noida, UP
+                                <br>Role : Full-Stack Development
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------------------------Services-------------------------------- -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="service-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Designing</h2>
+                    <p>websites not only look visually appealing but also function seamlessly across different browsers and devices.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI UX Design</h2>
+                    <p>Making digital products visually appealing and user-friendly to create enjoyable and efficient user experiences.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-bug-slash"></i>
+                    <h2>Debugging</h2>
+                    <p>Analyze and resolve issues, bugs, or different errors in codes.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------------------------Projects----------------------------- -->
+
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="project-list">
+                <div class="project">
+                    <img src="./images/irctc.png" alt="irctc">
+                    <div class="project-layer">
+                        <h3>IRCTC PNR Status App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo impedit odio quibusdam officiis tenetur maiores.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="./images/cms.png" alt="cms">
+                    <div class="project-layer">
+                        <h3>IRCTC PNR Status App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo impedit odio quibusdam officiis tenetur maiores.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="./images/calc.png" alt="calculator">
+                    <div class="project-layer">
+                        <h3>IRCTC PNR Status App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo impedit odio quibusdam officiis tenetur maiores.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-- --------------------------------------Contact------------------------------------------------ -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> ravikumarmuz123@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +91-9708258656</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                    <a href="./images/Resume_Ravi.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="text" name="email" placeholder="Your Email" required>
+                        <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &#169; Ravi Kumar 2023 All Right Reserved</p>
+        </div>
+    </div>
+    <script>
+        var tabLinks = document.getElementsByClassName("tab-links");
+        var tabContents = document.getElementsByClassName("tab-contents");
+        function opentab(tabName){
+            for(tabLink of tabLinks){
+                tabLink.classList.remove("active-link");
+            }
+            for(tabContent of tabContents){
+                tabContent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabName).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        
+        function openMenu(){
+            document.getElementById("side-menu").style.right="0";
+        }
+        function closeMenu(){
+            document.getElementById("side-menu").style.right="-200px";        
+        }
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwWEp4T0XupO-XU146D_awmCjXlAdktOyiW42lqr510AyQ7qXnR1eCiU5PekSfnHmFZxg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById('msg');
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message Sent Succesfully";
+            setTimeout(()=>{msg.innerHTML=""}, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
